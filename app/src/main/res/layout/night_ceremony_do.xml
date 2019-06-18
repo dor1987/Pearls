@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:orientation="vertical">
+
+
+        <ScrollView
+            android:id="@+id/nightCeremionyViewMainScroller"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/pink"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nightCeremionyDoQuestion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pink"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="@string/nightquestion1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+        <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nightCeremionyDoQ1Scroller"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scrollbars="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+        android:fillViewport="true">
+
+        <EditText
+            android:id="@+id/nightCeremionyDoQ1Input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textColorHint="@color/TextHintColor"
+            android:textSize="15sp"
+            />
+
+
+            </android.support.v4.widget.NestedScrollView>
+
+
+    <TextView
+        android:id="@+id/nightCeremionyViewQuestion2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pink"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="@string/nightquestion2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+        <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nightCeremionyViewQ2Scroller"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scrollbars="vertical"
+        android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+        android:fillViewport="true">
+
+        <EditText
+            android:id="@+id/nightCeremionyDoQ2Input"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+
+            android:textSize="15sp" />
+
+        </android.support.v4.widget.NestedScrollView>
+
+        <TextView
+            android:id="@+id/nightCeremionyViewQuestion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pink"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:text="@string/nightquestion3"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nightCeremionyViewQ3Scroller"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scrollbars="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fillViewport="true">
+
+            <EditText
+                android:id="@+id/nightCeremionyDoQ3Input"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textMultiLine"
+                android:textColor="@color/black"
+
+                android:textSize="15sp" />
+
+        </android.support.v4.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/nightCeremionyViewContinueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/goodnight"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/nightCeremionyViewQ3Scroller"
+        />
+
+          </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+

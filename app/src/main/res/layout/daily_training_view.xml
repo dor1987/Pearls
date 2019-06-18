@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/dailyTrainingViewQuestion1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/pink"
+        android:gravity="center"
+        android:paddingBottom="8dp"
+        android:text="שאלה מהמאגר"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:id="@+id/dailyTrainingViewQ1Scroller"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+    <TextView
+        android:id="@+id/dailyTrainingViewAnswer1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:scrollbars = "vertical"
+        android:text="הידיעה הבאה מחדדת לנו את עיקרי החוק באשר לעניין הזוגיות בעבודה:  מה אומר החוק? מתי צריך לדווח על רומן שנרקם בעבודה? מה אמור לעשות מעסיק שמגיעות לאוזניו שמועות על רומן? ומה העונש למנהלי רומן?
+כל התשובות לשאלות הללו מוצגות דרך פרשת בנק הפועלים שעוררה גלים בתקופה האחרונה, ראש החטיבה העסקית בבנק, שמעון גל הודיע בשבוע שעבר על עזיבתו את הבנק אשר הפתיעה רבים, אלא שסיבת העזיבה לא היתה פחות מסעירה: רומן שניהל גל עם אחת מעובדות החטיבה שניהל.
+הידיעה הבאה מחדדת לנו את עיקרי החוק באשר לעניין הזוגיות בעבודה:  מה אומר החוק? מתי צריך לדווח על רומן שנרקם בעבודה? מה אמור לעשות מעסיק שמגיעות לאוזניו שמועות על רומן? ומה העונש למנהלי רומן?
+כל התשובות לשאלות הללו מוצגות דרך פרשת בנק הפועלים שעוררה גלים בתקופה האחרונה, ראש החטיבה העסקית בבנק, שמעון גל הודיע בשבוע שעבר על עזיבתו את הבנק אשר הפתיעה רבים, אלא שסיבת העזיבה לא היתה פחות מסעירה: רומן שניהל גל עם אחת מעובדות החטיבה שניהל.
+"
+        />
+    </ScrollView>
+
+
+
+    <Button
+        android:id="@+id/morningCeremionyViewContinueButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="חזרה"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/dailyQuote"
+        />
+
+
+    </LinearLayout>

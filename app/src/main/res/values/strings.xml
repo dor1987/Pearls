@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Pearls</string>
+    <string name="navSettings">Settings</string>
+    <string name="navProfileEdit">Profile Edit</string>
+    <string name="navQuit">Exit</string>
+    <string name="action_settings">תפריט</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="morningceramony">טקס בוקר</string>
+    <string name="nightceramony">טקס ערב</string>
+    <string name="timedtraining">תרגול יומי</string>
+    <string name="letsstarttheday">בואי נצא ליום נפלא</string>
+    <string name="watchmeditation">בואי נעשה מדיטציה</string>
+    <string name="youtubevideo">Youtube(temp)</string>
+
+    <string name="nightquestion1">על מה את אסירת תודה היום?</string>
+    <string name="nightquestion2">על מה את גאה בעצמך היום?</string>
+    <string name="nightquestion3">ספרי על רגע משמח מהיום</string>
+    <string name="goodnight">לילה טוב</string>
+
+    <string name="dailytrainingend">אני מדהימה</string>
+    <string name="pick_time_morning">מתי אני מתעוררת בדרך כלל?</string>
+    <string name="pick_time_night">מתי אני הולכת לישון בדרך כלל?</string>
+    <string name="pick_time_daily_training">מתי נוח לך לתרגל אהבה עצמית?</string>
+    <string name="what_ur_name">מה שמך המלא?</string>
+    <string name="what_ur_nickname">מה הכינוי שלך?</string>
+    <string name="nickname">כינוי</string>
+    <string name="name">שם מלא</string>
+    <string name="lets_start">בואי נתחיל</string>
+    <string name="save">שמור</string>
+
+
+    <string-array name="daily_sent">
+        <item>אם אין אני לי מי יחמיא לי</item>
+        <item>משפט 2</item>
+        <item>משפט 3</item>
+        <item>משפט 4</item>
+        <item>משפט 5</item>
+        <item>משפט 6</item>
+        <item>משפט 7</item>
+        <item>משפט 8</item>
+        <item>משפט 9</item>
+        <item>משפט 10</item>
+    </string-array>
+
+
+    <string-array name="nav_titles">
+        <item>Pearls</item>
+        <item>טקס בוקר שהיה</item>
+        <item>טקס ערב שהיה</item>
+        <item>תרגול יומי שהיה</item>
+        <item>טקס בוקר</item>
+        <item>טקס ערב</item>
+        <item>תרגול יומי</item>
+    </string-array>
+
+</resources>
